@@ -1,0 +1,15 @@
+{
+  "name": "Majelis Ta’lim Babul Jannah",
+  "short_name": "Babul Jannah",
+  "description": "Ngaji bareng, jadwal kajian, acara, dan artikel keislaman.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f4f8ec",
+  "theme_color": "#f4f8ec",
+  "lang": "id",
+  "icons": [
+    { "src": "/logo-128.png", "sizes": "128x128", "type": "image/png" },
+    { "src": "/logo-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

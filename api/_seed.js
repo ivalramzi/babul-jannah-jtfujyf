@@ -1,0 +1,144 @@
+// Data awal. Dimasukkan ke Redis otomatis saat pertama kali diakses (atau lewat tombol Reset di admin).
+export default {
+ "jadwal": [
+  {
+   "id": "j1",
+   "hari": "Senin",
+   "jam": "19.30",
+   "judul": "Kajian Tafsir Juz 30",
+   "pemateri": "Ust. Ahmad Fauzi",
+   "tempat": "Masjid Babul Jannah",
+   "jenis": "Umum"
+  },
+  {
+   "id": "j2",
+   "hari": "Rabu",
+   "jam": "20.00",
+   "judul": "Fikih Ibadah Sehari-hari",
+   "pemateri": "Ust. Hasan Basri",
+   "tempat": "Masjid Babul Jannah",
+   "jenis": "Umum"
+  },
+  {
+   "id": "j3",
+   "hari": "Jumat",
+   "jam": "18.30",
+   "judul": "Kajian Muslimah",
+   "pemateri": "Ustadzah Siti Aisyah",
+   "tempat": "Aula Lantai 2",
+   "jenis": "Muslimah"
+  },
+  {
+   "id": "j4",
+   "hari": "Sabtu",
+   "jam": "08.00",
+   "judul": "TPA & Tahsin Anak",
+   "pemateri": "Tim Pengajar",
+   "tempat": "Ruang Belajar",
+   "jenis": "Anak"
+  },
+  {
+   "id": "j5",
+   "hari": "Ahad",
+   "jam": "06.00",
+   "judul": "Kajian Subuh Pekanan",
+   "pemateri": "Ust. Muhammad Ridwan",
+   "tempat": "Masjid Babul Jannah",
+   "jenis": "Umum"
+  }
+ ],
+ "acara": [
+  {
+   "id": "tabligh-akbar-santunan",
+   "judul": "Tabligh Akbar & Santunan Anak Yatim",
+   "tanggal": "2026-10-24",
+   "jam": "19.30",
+   "lokasi": "Halaman Masjid Babul Jannah",
+   "pemateri": "Ust. Ahmad Fauzi",
+   "deskripsi": "Malam kajian terbuka untuk umum, dilanjutkan penyerahan santunan untuk anak yatim di lingkungan sekitar.\n\nDatang bersama keluarga. Disediakan konsumsi ringan untuk jamaah.",
+   "laporan": "",
+   "peserta": 0,
+   "foto": []
+  },
+  {
+   "id": "khataman-santri-tpa",
+   "judul": "Khataman Santri TPA",
+   "tanggal": "2026-11-08",
+   "jam": "08.00",
+   "lokasi": "Aula Lantai 2",
+   "pemateri": "Tim Pengajar TPA",
+   "deskripsi": "Pelepasan santri TPA yang telah menyelesaikan bacaan Al-Qur’an. Orang tua dan keluarga dipersilakan hadir.",
+   "laporan": "",
+   "peserta": 0,
+   "foto": []
+  },
+  {
+   "id": "bakti-sosial-lingkungan",
+   "judul": "Bakti Sosial Bersih Lingkungan",
+   "tanggal": "2026-09-06",
+   "jam": "07.00",
+   "lokasi": "Sekitar Masjid dan Pemukiman",
+   "pemateri": "Panitia Bakti Sosial",
+   "deskripsi": "Kerja bakti bersama warga membersihkan lingkungan masjid dan sekitarnya.",
+   "laporan": "Alhamdulillah kegiatan berjalan lancar dan diikuti jamaah dari berbagai usia.\n\nSampah terkumpul dan saluran air di sekitar masjid berhasil dibersihkan. Terima kasih kepada seluruh relawan.",
+   "peserta": 86,
+   "foto": []
+  },
+  {
+   "id": "wisata-religi",
+   "judul": "Wisata Religi Jamaah",
+   "tanggal": "2026-07-12",
+   "jam": "05.00",
+   "lokasi": "Ziarah dan Wisata Religi",
+   "pemateri": "Ust. Muhammad Ridwan",
+   "deskripsi": "Perjalanan bersama jamaah mengunjungi tempat-tempat bersejarah.",
+   "laporan": "Rombongan berangkat selepas Subuh dan kembali menjelang Maghrib dengan selamat.\n\nDi setiap lokasi, pemateri menyampaikan kisah dan pelajaran yang bisa dipetik.",
+   "peserta": 54,
+   "foto": []
+  },
+  {
+   "id": "kajian-akbar-hijriah",
+   "judul": "Kajian Akbar Tahun Baru Hijriah",
+   "tanggal": "2026-06-17",
+   "jam": "19.30",
+   "lokasi": "Masjid Babul Jannah",
+   "pemateri": "Ust. Hasan Basri",
+   "deskripsi": "Kajian menyambut tahun baru Hijriah.",
+   "laporan": "Masjid penuh sejak sebelum Isya. Jamaah mengikuti kajian dan doa bersama dengan khidmat.",
+   "peserta": 240,
+   "foto": []
+  }
+ ],
+ "artikel": [
+  {
+   "id": "menjaga-konsistensi-ibadah",
+   "judul": "Menjaga konsistensi ibadah di tengah kesibukan",
+   "penulis": "Ust. Ahmad Fauzi",
+   "tanggal": "2026-10-02",
+   "ringkas": "Amal kecil yang dilakukan terus-menerus lebih berharga daripada amal besar yang berhenti di tengah jalan.",
+   "isi": "Banyak dari kita bersemangat di awal, lalu kendor ketika rutinitas kembali padat. Ini wajar. Yang penting adalah bagaimana kita kembali.\n\nMulailah dari target yang sangat kecil: satu halaman Al-Qur’an setelah Subuh, atau dua rakaat dhuha. Kecil tetapi pasti, lalu naikkan perlahan.\n\nCari teman seperjalanan. Hadir di majelis ilmu secara rutin membantu kita saling mengingatkan, dan itu salah satu tujuan majelis ini ada.",
+   "warna": "#0a6b30",
+   "foto": []
+  },
+  {
+   "id": "adab-menuntut-ilmu",
+   "judul": "Adab sebelum ilmu: bekal para penuntut ilmu",
+   "penulis": "Ust. Hasan Basri",
+   "tanggal": "2026-09-24",
+   "ringkas": "Ilmu yang bermanfaat lahir dari hati yang rendah dan niat yang lurus. Apa saja adab yang perlu dijaga?",
+   "isi": "Para ulama terdahulu menekankan pentingnya adab sebelum mempelajari ilmu. Adab membuat ilmu mudah masuk dan mudah diamalkan.\n\nDi antaranya meluruskan niat, menghormati guru, mendengarkan dengan penuh perhatian, dan tidak merasa cukup dengan ilmu yang sudah dimiliki.\n\nIlmu bukan hanya untuk dikumpulkan, tetapi untuk diamalkan dan dibagikan kepada orang lain.",
+   "warna": "#bcd97e",
+   "foto": []
+  },
+  {
+   "id": "mengajarkan-shalat-pada-anak",
+   "judul": "Mengajarkan shalat pada anak dengan cara yang menyenangkan",
+   "penulis": "Ustadzah Siti Aisyah",
+   "tanggal": "2026-09-15",
+   "ringkas": "Anak belajar dari contoh. Mulai dari keteladanan di rumah, lalu bangun kebiasaan dengan sabar.",
+   "isi": "Ajak anak shalat berjamaah sejak dini, meski awalnya hanya berdiri di samping kita. Kehadiran mereka sudah menjadi langkah awal.\n\nBerikan apresiasi pada usaha, bukan hanya hasil. Hindari membandingkan dengan anak lain.\n\nKenalkan makna bacaan secara sederhana agar shalat terasa dekat dengan keseharian mereka.",
+   "warna": "#12251a",
+   "foto": []
+  }
+ ]
+}
